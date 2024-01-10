@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@700&family=Concert+One&family=Kanit&family=Lilita+One&family=Poppins:wght@300;400;500;600;700&family=Roboto:ital@1&display=swap");
+
+.heading h1{
+    font-family: 'Lilita One', sans-serif;
+    font-size: 50px;
+    color: #000;
+    margin: 12px;
+}
+.heading p{
+    color: #89531c;
+}
+.heading::after{
+    position: relative;
+    content: '';
+    width: 20%;
+    height: 2px;
+    background-color: #89531c;
+    opacity: 0.3;
+    display: inline-block;
+    margin: 10px;
+}
+.card{
+    font-family: 'Concert One', sans-serif;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-title{
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
+}
+.max{
+    color: #6f706f;
+}
+.card-body a{
+    background-color: #89531c;
+    color: white;
+    text-decoration: none;
+    padding: 9px;
+    border-radius: 10px;
+    
+}
+.card-body a i{
+    margin-right: 8px;
+}

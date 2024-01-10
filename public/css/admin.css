@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Lilita+One&family=Poppins:wght@300;400;500;600;700&family=Roboto:ital@1&display=swap");
+
+body{
+    background-color: #E5E5CB;
+}
+/* Style Navbar */
+.navbar {
+    background-color: #1A120B; /* Warna latar belakang navbar */
+    color: white; /* Warna teks di navbar */
+    padding: 10px 20px; /* Padding atas dan bawah navbar */
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 250px; /* Sesuaikan dengan lebar sidebar */
+    z-index: 1; /* Menempatkan navbar di atas konten */
+}
+.navbar-brand {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 25px;
+}
+
+.nav-item {
+    font-size: 18px;
+}
+
+.nav-item a {
+    color: white;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: white;
+}
+.container .heading{
+    font-family: 'Lilita One', sans-serif;
+    font-size: 50px;
+    color: #3c2a21;
+    margin-top: 70px;
+}
+/* Style for the Sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px; /* Lebar sidebar */
+    padding: 0 1.7rem;
+    color: #fff;
+    overflow: hidden;
+    transition: all 0.5s linear;
+    background: #1A120B;
+}
+/* End */
+.sidebar:hover {
+    width: 250px; /* Lebar saat hover */
+    transition: 0.5s;
+}
+.logo {
+    height: 80px;
+    padding: 16px;
+}
+.menu {
+    height: 88%;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+.menu li {
+    padding: 1rem;
+    margin: 8px 0;
+    border-radius: 8px;
+    transition: all 0.5 ease-in-out;
+}
+.menu li:hover,
+.active {
+    background: #A9907E;
+}
+.menu li:hover,
+.active1 {
+    background: #A9907E;
+}
+.menu a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.menu a span {
+    overflow: hidden;
+}
+.menu a i {
+    font-size: 1.2rem;
+}
+/* Main Content */
+.full-page {
+    margin-left: 250px; /* Sesuaikan dengan lebar sidebar */
+    padding: 20px;
+}

@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Lilita+One&family=Poppins:wght@300;400;500;600;700&family=Roboto:ital@1&display=swap");
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    
+}
+main{
+    background: linear-gradient(to right, #D5CEA3 , #A9907E);
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Memberikan ketinggian elemen container agar elemen berada di tengah layar secara vertikal */
+}
+.heading h1{
+    font-family: 'Lilita One', sans-serif;
+    font-size: 70px;
+    color: #000;
+}
+.heading p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #000;
+}
+.navbar{
+    background-color: #1A120B;
+}
+.navbar-brand{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 25px;
+    color: white;
+}
+.nav-item{
+    font-size: 18px;
+}
+.nav-item a{
+    color: white;
+}
+.nav-link:focus, .nav-link:hover {
+    color: white;
+}
+.btn a {
+    text-decoration: none; 
+    color: #675d50; 
+}
+a .btn{
+    margin-right: 18px;
+}
+
+

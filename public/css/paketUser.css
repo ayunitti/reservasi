@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Kanit&family=Kaushan+Script&family=Lilita+One&family=Poppins:wght@300;400;500;600;700&family=Quicksand:wght@600&family=Roboto:ital@1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+        background-color: #f9f6f2;
+}
+.navbar{
+    background-color: #1A120B;
+}
+.navbar-brand{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 25px;
+    color: white;
+}
+.nav-item{
+    font-size: 18px;
+}
+.nav-item a{
+    color: white;
+}
+.nav-link:focus, .nav-link:hover {
+    color: white;
+}
+a .btn{
+    margin-right: 18px;
+}
+/* Paket halaman admin */
+.card-img-top{
+    border-radius: 50px;
+    padding: 20px;
+}
+.card{
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+.card-body{
+    padding: 25px;
+    margin-top: -15px;
+}
+.card-link {
+    text-decoration: none;
+  }
+  .button {
+    background-color: #3c2a21;
+    color: #f9f6f2;
+    border-radius: 50px;
+    width: 120px;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid transparent;
+  }
+
+  .button:hover {
+    background-color: black;
+    border: none;
+    color: #f9f6f2;
+  }
+h3,h5{
+    color: rgb(60, 42, 33);
+}
+.container .heading{
+    font-family: 'Lilita One', sans-serif;
+    font-size: 50px;
+    color: #3c2a21;
+    margin-top: 20px;
+}
+
+/* Paket halaman user */
+.card-title {
+    font-family: 'Agbalumo', sans-serif; 
+    font-size: 30px; 
+    font-weight: bold;
+}
+.card-title-divider {
+    border: 1px solid #3c2a21; /* Set the border color as needed */
+    opacity: 1;
+    margin: 5px 0; /* Adjust the margin as needed */
+}
+.line{
+    width: 500px;
+    height: 2px;
+    background-color: #3c2a21;
+    margin: auto;
+}
+
+

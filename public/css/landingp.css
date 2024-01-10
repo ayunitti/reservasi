@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=The+Nautigal&family=Lilita+One&display=swap');
+    body{
+        font-family: 'Quicksand', sans-serif;
+    }
+    #begin{
+        background-image: url(http://localhost/reservasi/public/img/bg.jpg);
+        min-height: 86vh;
+        background-size: cover;
+        color: white;
+    }
+    h1{
+        font-family: 'The Nautigal', cursive;
+        color: #D4AF37;
+        font-size: 130px;
+        padding-top: 100px;
+    }
+    h2{
+        font-family: 'Lilita One', sans-serif;
+        font-size: 40px;
+        margin-top: -20px;
+    }
+    
+    .heading i{
+        color: white;
+    }
+    h2::before,
+    h2::after {
+    display: inline-block;
+    content: "";
+    border-top: .3rem solid #F3DEBA;
+    width: 7rem;
+    margin: 0 2rem;
+    transform: translateY(-1rem);
+    }
+    .btn-book{
+        background-color: #F3DEBA;
+        color: #3C2A21;
+        border-radius: 20px;
+        min-width: 15%;
+        border: 1px solid #000;
+    }
+    .btn-book:hover{
+        background-color: #fff;
+        color: #D4AF37;
+    }
+    #page2{
+        margin: 8vh 0 5vh;
+    }
+    #page2 .col h1 {
+        margin-top: -120px; 
+    }
+    #page3{
+        background-image: url(http://localhost/reservasi/public/img/bg-pg2.jpg);
+        height:55vh;
+        background-size: 70%;
+        color: white;
+    }
+    #page3 h3{
+        font-size: 90px;
+    }
+    .card-body{
+        background-color: #1A120B;
+        color: #c0c0c0;
+    }
+    .card-footer{
+        background-color: #3C2A21;
+        color: #c0c0c0;
+    }
+    .card-footer span{
+        color: #F3DEBA;
+    }
+    .sosmed a{
+        color: white;
+        font-size: 22px;
+        padding: 10px;
+    }

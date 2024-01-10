@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Kanit&family=Kaushan+Script&family=Lilita+One&family=Poppins:wght@300;400;500;600;700&family=Quicksand:wght@600&family=Roboto:ital@1&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(http://localhost/reservasi/public/img/bg.jpg);
+    font-family: 'Poppins', sans-serif;
+}
+/* .navbar{
+    background-color: #1A120B;
+}
+.navbar-brand{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 25px;
+    color: white;
+}
+.nav-item{
+    font-size: 18px;
+}
+.nav-item a{
+    color: white;
+}
+.nav-link:focus, .nav-link:hover {
+    color: white;
+}
+a .btn{
+    margin-right: 18px;
+} */
+.card {
+    margin-top: 110px;
+    margin-left: 450px;
+    background-color: rgba(169, 144, 126, 0.9);
+    border-radius: 10px;
+}
+.card-login {
+    margin-top: 150px;
+    margin-left: 450px;
+}
+h2 {
+    font-size: 30px;
+    color: #1A120B;
+    font-family: 'Lilita One', sans-serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+    text-align: center;
+}
+.btn {
+    display: block;
+    margin: 0 auto;
+}
+label{
+    font-family: 'Kanit', sans-serif;
+    color: #3C2A21;
+}
+.form-control {
+    background-color: #e5e5cb;
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+a.no-decoration {
+    text-decoration: none;
+    color: #001f3f; 
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .card {
+        margin-left: 10px;
+        width: 80%; 
+    }
+
+    .card-login {
+        margin-left: 10px;
+        width: 80%; 
+    }
+
+    h2 {
+        font-size: 20px; 
+    }
+
+    p {
+        font-size: 12px; 
+    }
+
+    label {
+        font-size: 12px; 
+    }
+
+    .form-control {
+        width: 80%; 
+    }
+}

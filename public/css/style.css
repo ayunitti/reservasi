@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Kaushan+Script&family=Tilt+Neon&display=swap');
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #FFF;
+}
+.navbar{
+    background-color: #1A120B;
+}
+.navbar-brand{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 25px;
+    color: white;
+}
+.nav-item{
+    font-size: 18px;
+}
+.nav-item a{
+    color: white;
+}
+.nav-link:focus, .nav-link:hover {
+    color: white;
+}
+a .btn{
+    margin-right: 18px;
+}
+
+
